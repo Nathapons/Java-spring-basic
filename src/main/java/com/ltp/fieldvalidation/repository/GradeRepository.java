@@ -3,8 +3,11 @@ package com.ltp.fieldvalidation.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.ltp.fieldvalidation.Grade;
 
+@Component
 public class GradeRepository {
     private List<Grade> studentGrades = new ArrayList<>();
 
