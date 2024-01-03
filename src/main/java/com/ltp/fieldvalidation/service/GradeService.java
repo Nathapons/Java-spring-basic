@@ -46,7 +46,7 @@ public class GradeService {
     public void submitGrade(Grade grade) {
         int index = getGradeIndex(grade.getId());
         if (index == Constants.NOT_FOUND) {
-            addGrade(grade);;
+            addGrade(grade);
         } else {
             updateGrade(grade, index);
         }
