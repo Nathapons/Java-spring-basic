@@ -3,13 +3,13 @@ package com.ltp.fieldvalidation.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.ltp.fieldvalidation.Constants;
 import com.ltp.fieldvalidation.Grade;
 import com.ltp.fieldvalidation.repository.GradeRepository;
 
-@Component
+@Service
 public class GradeService {
 
     @Autowired
