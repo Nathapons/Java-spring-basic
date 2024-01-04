@@ -1,4 +1,4 @@
-package com.ltp.fieldvalidation;
+package com.ltp.fieldvalidation.validator;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

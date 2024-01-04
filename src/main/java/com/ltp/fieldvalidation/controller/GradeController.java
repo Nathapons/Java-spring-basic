@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.ltp.fieldvalidation.Grade;
+import com.ltp.fieldvalidation.pojo.Grade;
 import com.ltp.fieldvalidation.service.GradeService;
 
 @Controller

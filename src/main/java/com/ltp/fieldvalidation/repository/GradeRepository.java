@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.ltp.fieldvalidation.Grade;
+import com.ltp.fieldvalidation.pojo.Grade;
 
 @Repository
 public class GradeRepository {

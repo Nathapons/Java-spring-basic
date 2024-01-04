@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ltp.fieldvalidation.Constants;
-import com.ltp.fieldvalidation.Grade;
+import com.ltp.fieldvalidation.pojo.Grade;
 import com.ltp.fieldvalidation.repository.GradeRepository;
+import com.ltp.fieldvalidation.utils.Constants;
 
 @Service
 public class GradeService {

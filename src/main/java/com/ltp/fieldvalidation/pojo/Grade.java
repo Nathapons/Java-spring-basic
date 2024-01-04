@@ -1,8 +1,10 @@
-package com.ltp.fieldvalidation;
+package com.ltp.fieldvalidation.pojo;
 
 import java.util.UUID;
 
 import javax.validation.constraints.NotBlank;
+
+import com.ltp.fieldvalidation.validator.Score;
 
 public class Grade {
     @NotBlank(message = "Name cannot be blank")
@@ -13,6 +15,13 @@ public class Grade {
     private String score;
     private String id;
 
+
+    public Grade(String name, String subject, String score) {
+        this.name = name;
+        this.subject = subject;
+        this.score = score;
+        this.id = UUID.randomUUID().toString();
+    }
 
     public Grade() {
         this.id = UUID.randomUUID().toString();

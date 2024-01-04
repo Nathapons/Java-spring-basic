@@ -1,4 +1,4 @@
-package com.ltp.fieldvalidation;
+package com.ltp.fieldvalidation.validator;
 
 import java.util.Arrays;
 import java.util.List;
